@@ -12,7 +12,7 @@ BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}-root
 Requires:   rubygems
 BuildRequires: rubygems
 BuildRequires: ruby-devel
-Obsoletes:  ruby-hpricot
+Obsoletes:  ruby-hpricot < %{version}
 Provides:   rubygem(%{oname}) = %{version}
 
 %description
