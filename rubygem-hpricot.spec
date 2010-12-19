@@ -2,7 +2,7 @@
 
 Summary:    A swift, liberal HTML parser with a fantastic library
 Name:       rubygem-%{oname}
-Version:    0.8.2
+Version:    0.8.3
 Release:    %mkrel 1
 Group:      Development/Ruby
 License:    MIT
@@ -51,7 +51,7 @@ rm -rf %buildroot
 %{ruby_gemdir}/gems/%{oname}-%{version}/test/
 %doc %{ruby_gemdir}/doc/%{oname}-%{version}
 %doc %{ruby_gemdir}/gems/%{oname}-%{version}/Rakefile
-%doc %{ruby_gemdir}/gems/%{oname}-%{version}/README
+%doc %{ruby_gemdir}/gems/%{oname}-%{version}/README.md
 %doc %{ruby_gemdir}/gems/%{oname}-%{version}/CHANGELOG
 %doc %{ruby_gemdir}/gems/%{oname}-%{version}/COPYING
 %{ruby_gemdir}/cache/%{oname}-%{version}.gem
