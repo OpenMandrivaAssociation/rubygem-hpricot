@@ -57,3 +57,29 @@ rm -rf %buildroot
 %{ruby_gemdir}/cache/%{oname}-%{version}.gem
 %{ruby_gemdir}/specifications/%{oname}-%{version}.gemspec
 %{ruby_sitearchdir}/*.so
+
+
+%changelog
+* Sun Dec 19 2010 Rémy Clouard <shikamaru@mandriva.org> 0.8.3-1mdv2011.0
++ Revision: 623046
+- Bump release
+- new version 0.8.3
+- fix file list
+
+* Thu Nov 04 2010 Rémy Clouard <shikamaru@mandriva.org> 0.8.2-1mdv2011.0
++ Revision: 593216
+- use version in obsolete
+- move spec file accordingly
+- Move ruby-hpricot to rubygem-hpricot
+- Update to new release 0.8.2
+- package as a gem to satisfy rubygem-ronn dependencies
+- obsoletes ruby-hpricot
+
+* Tue Sep 08 2009 Thierry Vignaud <tv@mandriva.org> 0.6-2mdv2010.0
++ Revision: 433517
+- rebuild
+
+* Sat Aug 02 2008 Pascal Terjan <pterjan@mandriva.org> 0.6-1mdv2009.0
++ Revision: 261127
+- Adapt for Mandriva
+
