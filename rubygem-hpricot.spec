@@ -3,7 +3,7 @@
 Summary:    A swift, liberal HTML parser with a fantastic library
 Name:       rubygem-%{oname}
 Version:    0.8.3
-Release:    %mkrel 1
+Release:    2
 Group:      Development/Ruby
 License:    MIT
 URL:        http://code.whytheluckystiff.net/hpricot/
