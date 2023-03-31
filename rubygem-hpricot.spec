@@ -1,7 +1,7 @@
 Summary:	Ruby HTML parser
 Name:		rubygem-hpricot
 Version:	0.8.6
-Release:	2
+Release:	3
 Group:		Development/Ruby
 License:	GPLv2+ or Ruby
 URL:		https://rubygems.org/gems/hpricot
